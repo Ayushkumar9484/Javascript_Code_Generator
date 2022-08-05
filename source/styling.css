@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main_conatiner{
+    width:100%;
+    /* height: 1000px; */
+    background-color: aquamarine;
+}
+.upper_part{
+    background-color: tomato;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* margin: 0 100px; */
+    /* position: relative; */
+    /* top: 20px;
+    left: 10%; */
+}
+.upper_divs{
+    margin: 0px 200px;
+    background-color: aquamarine;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    text-transform: capitalize;
+    border-radius: 30px;
+    vertical-align: middle;
+}
+.upper_divs:nth-child(3)
+{
+    /* margin-left: 50px; */
+    position: relative;
+    left: 50px;
+}
+.upper_divs:nth-child(1),.upper_divs:nth-child(2)
+{
+    position: relative;
+    left: -100px;
+}
+
+.lower_part
+{
+    width: 100%;
+    height:calc(100vh - 104px);
+    background-color: black;
+}
+.lower_divs{
+    float: left;
+    width: 33%;
+    /* height: 500px; */
+    height: inherit;
+    border: 2px solid black;
+    /* background-color: chartreuse; */
+}
+.lower_divs:nth-child(1)
+{
+    width:calc(33% - 200px);
+    background-color: antiquewhite;
+}
+.lower_divs:nth-child(2)
+{
+    width:calc(33% + 200px);
+    background-color: yellowgreen;
+}
+.lower_divs:nth-child(3)
+{
+    background-color: darkslategray;
+}
+li{
+    list-style-type: none;
+}
+button{
+    width: 200px;
+    height: 30px;
+    position: relative;
+    background-color: blue;
+    left: 80%;
+}
+#blocklyArea
+{
+    height: calc(100vh - 101px);
+    background-color: red;
+}
+#textarea{
+    background-color: brown;
+    width:33%;
+    max-width: 33%;
+    height:calc(100vh - 100px);
+    position: relative;
+    left: 1029px;
+    color: white;
+    font-size: large;
+    overflow: scroll;
+}
+#text_content{
+    width: inherit;
+    height: fit-content;
+    /* background-color: aqua; */
+    margin-left: 50px;
+    /* max-width: 400px; */
+}
+#run_code{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position:fixed;
+    top: 645px;
+    left: 1458px;
+    background-color: rgb(46, 202, 202);
+}
+.blocklyTreeLabel {
+    color: white;
+    /* margin: 5px; */
+  }
+  /* Adds padding around the group of categories and separators. */
+  .blocklyToolboxContents {
+    padding: .5em;
+  }
+  /* Adds space between the categories, rounds the corners and adds space around the label. */
+  .blocklyTreeRow {
+    padding: 3px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    /* background-color: black; */
+  }
